@@ -4,6 +4,12 @@ void main(List<String> args) {
   //Variable = spot in memory. Or just a bucket to hold a value.
   var country = "Panama"; // string
 
-  print('Hello Rafa');
+  String name;
+  int edad;
+
+  name = 'Rafael';
+  edad = 28;
+
+  print('Hello $name I from $country years old $edad');
   print(country);
 }
