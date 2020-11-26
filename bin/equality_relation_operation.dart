@@ -8,8 +8,11 @@ void main(List<String> args) {
 
   print(pi <= gravity);
 
+  print(pi is bool);
+  print(pi is! bool);
+
   if (pi != gravity) {
-    print("Si es diferente");
+    print("si es diferente");
   } else {
     print("No es diferente");
   }
